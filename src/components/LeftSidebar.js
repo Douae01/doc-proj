@@ -50,7 +50,7 @@ function LeftSidebar({ children, activeChild }) {
         <div className="flex flex-col h-full justify-between">
           {/* Logo and Close button */}
           <div className="h-20 flex items-center justify-between px-4">
-            <Link to="/home" className="flex-none">
+            <Link to="/" className="flex-none">
               <img src={Logo} width={160} className="mx-auto mt-4 mb-2" alt="Logo" />
             </Link>
             <button 
