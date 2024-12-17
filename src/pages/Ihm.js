@@ -2,6 +2,7 @@ import React from 'react';
 import LeftSidebar from '../components/LeftSidebar';
 import Accueil from '../assets/images/ihm_accueil.png';
 import Control from '../assets/images/ihm_control.png';
+import DemoVideo from '../assets/videos/demo_ihm.mp4'
 
 // Fonts and Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -83,7 +84,7 @@ export const Ihm = () => {
               <div className="bg-gray-200 p-4 rounded-md text-center">
                 {/* Vidéo locale */}
                 <video controls width="100%" className="rounded-md">
-                  <source type="video/mp4" />
+                  <source src={DemoVideo} type="video/mp4" />
                   Votre navigateur ne prend pas en charge la lecture des vidéos.
                 </video>
               </div>
