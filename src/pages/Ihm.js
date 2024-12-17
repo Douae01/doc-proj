@@ -85,7 +85,6 @@ export const Ihm = () => {
                 {/* Vidéo locale */}
                 <video controls width="100%" className="rounded-md">
                   <source src={DemoVideo} type="video/mp4" />
-                  Votre navigateur ne prend pas en charge la lecture des vidéos.
                 </video>
               </div>
             </div>
