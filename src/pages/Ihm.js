@@ -83,7 +83,7 @@ export const Ihm = () => {
               <div className="bg-gray-200 p-4 rounded-md text-center">
                 {/* Vidéo locale */}
                 <video controls width="100%" className="rounded-md">
-                  <source src={DemoVideo} type="video/mp4" />
+                  <source type="video/mp4" />
                   Votre navigateur ne prend pas en charge la lecture des vidéos.
                 </video>
               </div>
