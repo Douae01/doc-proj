@@ -1,5 +1,7 @@
 import React from 'react';
 import LeftSidebar from '../components/LeftSidebar';
+import Accueil from '../assets/images/ihm_accueil.png';
+import Control from '../assets/images/ihm_control.png';
 
 // Fonts and Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -66,12 +68,30 @@ export const Ihm = () => {
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div className="bg-gray-200 p-4 rounded-md text-center">
               <p className="font-medium">Image 1 : Tableau de Bord et Accueil</p>
+              <img src={Accueil}/>
             </div>
             <div className="bg-gray-200 p-4 rounded-md text-center">
               <p className="font-medium">Image 2 : Contrôle Moteur et Jauges</p>
+              <img src={Control}/>
+            </div>
+            {/* Ajout de la vidéo */}
+            <div className="mt-8">
+              <h3 className="text-xl font-semibold text-gray-700 mb-4">Vidéo Démonstration</h3>
+              <p className="mb-2">
+                Découvrez une démonstration interactive de notre interface utilisateur :
+              </p>
+              <div className="bg-gray-200 p-4 rounded-md text-center">
+                {/* Vidéo locale */}
+                <video controls width="100%" className="rounded-md">
+                  <source src={DemoVideo} type="video/mp4" />
+                  Votre navigateur ne prend pas en charge la lecture des vidéos.
+                </video>
+              </div>
             </div>
           </div>
         </section>
+
+
       </div>
     </div>
   );
