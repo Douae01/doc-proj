@@ -1,5 +1,6 @@
 import React from "react";
 import LeftSidebar from "../components/LeftSidebar.js";
+import SchemaFonctionnel from '../assets/images/schema_fonctionnel.png';
 
 // Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -23,7 +24,7 @@ export function Home() {
       </div>
 
       {/* Main content area */}
-      <div className="flex flex-col flex-1 overflow-y-auto">
+      <div className="flex flex-col flex-1 overflow-y-auto overflow-y-auto">
 
         {/* Main page content */}
         <div className="flex flex-col flex-1 p-8 space-y-8">
@@ -55,6 +56,21 @@ export function Home() {
             <p className="mt-2 text-gray-700">
               Ce projet offre ainsi une solution complète pour analyser, visualiser et contrôler des déformations mécaniques dans des applications de flexion.
             </p>
+
+            {/* Schema Fonctionnel Section */}
+            <div className="bg-white shadow-lg rounded-lg p-6 mt-6">
+              <h2 className="text-xl font-extrabold text-blue-600 mb-4">Schéma Fonctionnel</h2>
+              <p className="text-gray-700 mb-4">
+                Voici le schéma fonctionnel illustrant le déroulement du projet et l'interaction entre ses différents composants :
+              </p>
+              <div className="flex justify-center">
+                <img 
+                  src={SchemaFonctionnel} 
+                  alt="Schéma Fonctionnel" 
+                  className="w-full md:w-3/4 lg:w-2/3 shadow-md rounded-md"
+                />
+              </div>
+            </div>
           </div>
 
 

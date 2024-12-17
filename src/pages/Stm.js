@@ -23,7 +23,7 @@ export const Stm = () => {
       </div>
 
       {/* Content Section */}
-      <div className="flex-1 bg-white shadow-md rounded-lg p-6 overflow-auto">
+      <div className="flex-1 rounded-lg p-6 overflow-auto">
         <h1 className="text-3xl font-bold mb-6 text-gray-800">Programmation STM32</h1>
 
       {/* Section 1: Introduction */}

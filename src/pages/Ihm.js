@@ -24,7 +24,7 @@ export const Ihm = () => {
           <div href="/Biblio" name="Bibliographie" icon={<FontAwesomeIcon icon={faBook} />} />
         </LeftSidebar>
       </div>
-      <div className="flex-1 bg-white shadow-md rounded-lg p-6 overflow-auto">
+      <div className="flex-1 rounded-lg p-6 overflow-auto">
         <h1 className="text-3xl font-bold mb-6 text-gray-800">Interface Homme-Machine (IHM)</h1>
 
       {/* Section 1: Introduction */}
