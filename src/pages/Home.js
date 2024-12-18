@@ -88,7 +88,7 @@ export function Home() {
             <ul className="list-disc pl-6 text-gray-700">
               <li>CHOUBRI Douae</li>
               <li>BOUGHANMI Roua</li>
-              <li>MAMBOU TSAGA Duval</li>
+              <li>MAMBOU TSAGUE Duval</li>
               <li>LEMAIRE Rodrigue</li>
             </ul>
           </div>

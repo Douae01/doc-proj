@@ -2,6 +2,8 @@ import React from 'react';
 import LeftSidebar from '../components/LeftSidebar';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faCogs, faMicrochip, faDesktop, faChartBar, faBook } from '@fortawesome/free-solid-svg-icons';
+import varMasse from '../assets/images/variation_masse.jpeg';
+import varPosition from '../assets/images/variation_position.jpeg';
 
 export const Etude = () => {
   const activeChild = 'Etudes';
@@ -52,7 +54,7 @@ export const Etude = () => {
           <div className="bg-white shadow-md rounded-md p-6">
             <h3 className="text-lg font-semibold text-gray-700">Théorie de la Flexion Pure</h3>
             <p>
-              L'équation différentielle de la déformée selon le théorème de Bernoulli s'écrit :
+              L'équation différentielle de la déformée selon le théorème de Bresse s'écrit :
               <br />
               <br />
               <code className="bg-gray-200 p-1 rounded">d²v(y)/dy² = M(y)/(EI)</code>
@@ -177,6 +179,7 @@ export const Etude = () => {
               </ul>
               <br />
               <p>La déformation varie linéairement avec la charge appliquée <code>P</code>.</p>
+              <img src={varMasse} className='m-auto'></img>
             </div>
 
             <div className="bg-white shadow-md rounded-md p-6 mb-6">
@@ -191,6 +194,7 @@ export const Etude = () => {
               </ul>
               <br />
               <p>La déformation varie linéairement avec la distance <code>(l-y)</code>.</p>
+              <img src={varPosition} className='m-auto'></img>
             </div>
           </div>
 
